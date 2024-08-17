@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Customize other styles as needed */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #1a0001;
+
+}
+a:hover{
+   color: #A80007;
+}
+.menuList{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logo{
+    
+    width: 150px;
+    height: auto;
+}
+article{
+    display: flex;
+    padding: 30px;
+
+}
+.sectionText{
+   width: 50%;
+
+}
+.sectionImage{
+    width: 50%;
+}
+.hero h2{
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 55px;
+}
+.colorRed{
+    color: #A80007;
+}
+.about{
+text-align: center;
+padding-left: 200px;
+padding-right: 200px;
+}
+li{
+    list-style-type: none;
+}
